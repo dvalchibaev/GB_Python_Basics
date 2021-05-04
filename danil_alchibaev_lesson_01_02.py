@@ -10,7 +10,7 @@ def sum_sevens(numbers, shift=0):
             inner_sum += value % 10
             value = value // 10
         if inner_sum % 7 == 0:
-            output_sum += i
+            output_sum += i + shift
     return output_sum
 
 

@@ -15,7 +15,7 @@ years = days * 365
 
 
 seconds = duration % 60
-answer_text = '{} sec'.format(input_time)
+answer_text = '{} sec'.format(seconds)
 
 
 input_time, input_years = (input_time % years, input_time // years)
